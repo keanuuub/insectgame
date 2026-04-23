@@ -14,10 +14,12 @@ body {
   text-align: center;
 }
 
-#button
-
 .btn {
-  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  display: inline-block;
+  border: none;
   background-color: #fff;
   color: #fd52a1;
   padding: 15px 20px;
