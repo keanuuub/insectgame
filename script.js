@@ -10,12 +10,14 @@ let seconds = 0;
 let score = 0;
 let selectedInsect = {};
 
-// Start game (go to insect selection)
+// start game (go to insect selection)
+
 startBtn.addEventListener('click', () => {
   screens[0].classList.add('up');
 });
 
-// Choose insect
+// choose insect
+
 chooseInsectBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const img = btn.querySelector('img');
