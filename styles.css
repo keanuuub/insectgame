@@ -14,12 +14,13 @@ body {
   text-align: center;
 }
 
-.btn {
+#button
+
+  .btn {
   appearance: none;
   -webkit-appearance: none;
-  outline: none;
-  display: inline-block;
   border: none;
+  border: 0;
   background-color: #fff;
   color: #fd52a1;
   padding: 15px 20px;
@@ -84,6 +85,7 @@ h1 {
   font-family: inherit;
   width: 150px;
   height: 150px;
+  border-radius: 40px
 }
 
 .choose-insect-btn:hover {
